@@ -4,12 +4,12 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from '../components/App';
+import 'antd/dist/antd.css';
 
 document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(
-    <div>
-      <h1>Hello August!</h1>
-    </div>,
+    <App />,
     document.body.appendChild(document.createElement('div'))
   );
 });

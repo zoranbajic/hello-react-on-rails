@@ -5,7 +5,7 @@ const { Content } = Layout;
 
 function Hero() {
   return (
-    <Content style={{ minHeight: '500px' }}>
+    <Content>
       <h1>Hello August</h1>
     </Content>
   );

@@ -2,7 +2,7 @@ import React from 'react';
 import { Layout, Typography } from 'antd';
 
 const { Content } = Layout;
-const { Text, Title } = Typography;
+const { Title } = Typography;
 
 function Hero() {
   return (

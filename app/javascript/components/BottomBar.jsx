@@ -1,7 +1,7 @@
 import React from 'react';
-import { Button, Col, Divider, Layout, Row } from 'antd';
+import { Button, Col, Layout, Row } from 'antd';
 
-const { Footer, Text } = Layout;
+const { Footer } = Layout;
 
 function BottomBar() {
   return (
@@ -28,7 +28,6 @@ function BottomBar() {
             href='https://github.com/ZoranBajic'
             style={{ color: '#FFFFFF', fontWeight: 'bold' }}
           >
-            {/* <Text type='strong'>Github</Text> */}
             Github
           </Button>
         </Col>

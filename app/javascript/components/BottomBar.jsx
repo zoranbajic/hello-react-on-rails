@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Col, Divider, Layout, Row } from 'antd';
 
-const { Footer } = Layout;
+const { Footer, Text } = Layout;
 
 function BottomBar() {
   return (
@@ -23,23 +23,39 @@ function BottomBar() {
         }}
       >
         <Col xs={12} md={6}>
-          <Button type='link' href='https://github.com/ZoranBajic'>
+          <Button
+            type='text'
+            href='https://github.com/ZoranBajic'
+            style={{ color: '#FFFFFF', fontWeight: 'bold' }}
+          >
+            {/* <Text type='strong'>Github</Text> */}
             Github
           </Button>
         </Col>
         <Col xs={12} md={6}>
-          <Button type='link' href='https://linkedin.com/in/zoranbajic'>
-            {' '}
+          <Button
+            type='text'
+            href='https://linkedin.com/in/zoranbajic'
+            style={{ color: '#FFFFFF', fontWeight: 'bold' }}
+          >
             LinkedIn
           </Button>
         </Col>
         <Col xs={12} md={6}>
-          <Button type='link' href='https://www.zoranbajic.com'>
+          <Button
+            type='text'
+            href='https://www.zoranbajic.com'
+            style={{ color: '#FFFFFF', fontWeight: 'bold' }}
+          >
             Portfolio
           </Button>
         </Col>
         <Col xs={12} md={6}>
-          <Button type='link' href='mailto:contact@zoranbajic.com'>
+          <Button
+            type='text'
+            href='mailto:contact@zoranbajic.com'
+            style={{ color: '#FFFFFF', fontWeight: 'bold' }}
+          >
             Contact
           </Button>
         </Col>

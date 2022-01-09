@@ -22,7 +22,7 @@ function BottomBar() {
           paddingRight: '27%',
         }}
       >
-        <Col xs={12} md={6}>
+        <Col xs={24} sm={12} md={6}>
           <Button
             type='text'
             href='https://github.com/ZoranBajic'
@@ -31,7 +31,7 @@ function BottomBar() {
             Github
           </Button>
         </Col>
-        <Col xs={12} md={6}>
+        <Col xs={24} sm={12} md={6}>
           <Button
             type='text'
             href='https://linkedin.com/in/zoranbajic'
@@ -40,7 +40,7 @@ function BottomBar() {
             LinkedIn
           </Button>
         </Col>
-        <Col xs={12} md={6}>
+        <Col xs={24} sm={12} md={6}>
           <Button
             type='text'
             href='https://www.zoranbajic.com'
@@ -49,7 +49,7 @@ function BottomBar() {
             Portfolio
           </Button>
         </Col>
-        <Col xs={12} md={6}>
+        <Col xs={24} sm={12} md={6}>
           <Button
             type='text'
             href='mailto:contact@zoranbajic.com'

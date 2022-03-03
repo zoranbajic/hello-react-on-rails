@@ -14,7 +14,7 @@ function Hero() {
         alignItems: 'center',
       }}
     >
-      <Title style={{ color: '#FFFFFF' }}>Hello August</Title>
+      <Title style={{ color: '#FFFFFF' }}>Hello React on Rails!</Title>
     </Content>
   );
 }

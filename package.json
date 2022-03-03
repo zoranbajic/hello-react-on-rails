@@ -1,5 +1,5 @@
 {
-  "name": "hello-august",
+  "name": "hello-react-on-rails",
   "private": true,
   "dependencies": {
     "@babel/preset-react": "^7.16.7",

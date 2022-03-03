@@ -3,7 +3,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: hello_august_development
+  database: hello_react_on_rails_development
   pool: 5
   username: you
   password:
@@ -12,7 +12,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: hello_august_test
+  database: hello_react_on_rails_test
   pool: 5
   username: you
   password:
